@@ -3,7 +3,7 @@
 ## CurrentPCName, NewPCName ##
 ## currentName.domain.com, newName.domain.com ##
 
-$Username = "mcpss.local\YourUsername"
+$Username = "domain.local\YourUsername"
 $Password = Read-Host -Prompt "Enter the password for $Username" -AsSecureString
 $Credential = New-Object System.Management.Automation.PSCredential($Username, $Password)
 
